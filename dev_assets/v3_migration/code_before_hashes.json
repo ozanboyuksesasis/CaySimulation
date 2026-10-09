@@ -1,0 +1,234 @@
+﻿[
+    {
+        "path":  "lib\\main.dart",
+        "sha256":  "38585C28EE2EA2AEE8C3C267089CE24FE88B07E94160F2F7B583AE687246BFA8"
+    },
+    {
+        "path":  "lib\\features\\builder\\builder_system.dart",
+        "sha256":  "B4BD09002BCBEFA8463AE5CE345D0C90BB40CF1027BEF54CFADE3D4125325545"
+    },
+    {
+        "path":  "lib\\features\\builder\\build_catalog.dart",
+        "sha256":  "91A1BE2BDBBAE13C3DD7AB8879417BA23AAE1BB220E02B9CB9335E58EA4DEA90"
+    },
+    {
+        "path":  "lib\\features\\builder\\placement_preview.dart",
+        "sha256":  "2309CF1AA2327F797A67608C39999E93DFDE136E431800EB70CFCCCEE6928733"
+    },
+    {
+        "path":  "lib\\features\\builder\\placement_validator.dart",
+        "sha256":  "0FF46E8722AF8EB50D2C78C9DD22043EAF926DC0BAA1ED0BC0B832155E7684F2"
+    },
+    {
+        "path":  "lib\\features\\builder\\settlement.dart",
+        "sha256":  "89E9463282EC609C5E07F8982011BED4D85174BA377A9FDB712D12CC0966B7E2"
+    },
+    {
+        "path":  "lib\\features\\buildings\\building_prototypes.dart",
+        "sha256":  "2C76EBA50B84656E27A74F049B38AA1197143FB90BCCACF4FA0B0E06A5737505"
+    },
+    {
+        "path":  "lib\\features\\buildings\\factory_config.dart",
+        "sha256":  "360CA445178330A1F34BFA468B7822B27B1953A71BCBEF8166C14D88B730AE2F"
+    },
+    {
+        "path":  "lib\\features\\buildings\\tea_collection_center.dart",
+        "sha256":  "6FF1BC3082DBA8DBD0EA496B88F68F598AC5B5AC6C89590CC7B61B21A681D3E4"
+    },
+    {
+        "path":  "lib\\features\\buildings\\tea_factory.dart",
+        "sha256":  "B35871540D7D0AAF340E143B095E336AA032E50C253B2D4B0C00A4CAD33A6DA5"
+    },
+    {
+        "path":  "lib\\features\\economy\\economy_state.dart",
+        "sha256":  "FC3D94B09C22F78031879CAE6A7B303B8D4123EFD8159A6C6D6FF8413B3B6E26"
+    },
+    {
+        "path":  "lib\\features\\economy\\inventory_state.dart",
+        "sha256":  "0D250118EA952BA430E96865E8A0CD5268AA17A9F9DE55CCAB329AA4CCC6EE02"
+    },
+    {
+        "path":  "lib\\features\\economy\\player_inventory.dart",
+        "sha256":  "875800018535121BE2C293A7968D100D76F500C29E9FC7C6264D2F18CAD19D02"
+    },
+    {
+        "path":  "lib\\features\\economy\\resource_summary.dart",
+        "sha256":  "789B9FB2DE1F7EEF92FAF7CB0B319F0D5FE847FD15C51219F78962AABD1094B7"
+    },
+    {
+        "path":  "lib\\features\\plantation\\field_visuals.dart",
+        "sha256":  "84CD3C82F54D0D9213EE2879AFDB43BBDDF2E1254CD7D74EE169AD76DD62216D"
+    },
+    {
+        "path":  "lib\\features\\plantation\\plantation_config.dart",
+        "sha256":  "156A829433CFAA784AAE842B3191B64BDF698B6E231F18640FF6999E1D47C1A0"
+    },
+    {
+        "path":  "lib\\features\\plantation\\plantation_prototype.dart",
+        "sha256":  "84206CDD324A6960C22DE3C7A0BAAACE3B2E16183F723C6F66F5DA5D9C444CEC"
+    },
+    {
+        "path":  "lib\\features\\plantation\\plantation_system.dart",
+        "sha256":  "F77A91EB2AA41A9292385BB79DA61EED52CCA48E8334CD2EC8CA3B753D77FC45"
+    },
+    {
+        "path":  "lib\\features\\plantation\\tea_field.dart",
+        "sha256":  "A1C497CD026E3BFCCC917DDAFB272E2CB4A75E26039614B8EADE0203565B27D1"
+    },
+    {
+        "path":  "lib\\features\\plantation\\tea_field_component.dart",
+        "sha256":  "7D1FCCDB95164C1F2994CC712504467B4652B19EAEAF417E9C47F5C6D33BFE88"
+    },
+    {
+        "path":  "lib\\features\\shop\\shop_service.dart",
+        "sha256":  "770BE361AB66A83941E57C9E16BACB3F6469A5407F1936ABC9B664EFEE1DF30B"
+    },
+    {
+        "path":  "lib\\features\\transport\\transport_config.dart",
+        "sha256":  "CCB40C31200C1367E492F71F82416B92DC4D3819BB6E36D65289094FA9F85613"
+    },
+    {
+        "path":  "lib\\features\\transport\\transport_job.dart",
+        "sha256":  "328EABD5C380D4E7A64333E88D491DFF745DA969BA2ED10F3D5FFB6D416C250F"
+    },
+    {
+        "path":  "lib\\features\\transport\\transport_system.dart",
+        "sha256":  "5FCC5D998740DD0C4D9873B671C5674DD5343E07BB7EAEE865F71A580E1BAC63"
+    },
+    {
+        "path":  "lib\\features\\transport\\transport_vehicle.dart",
+        "sha256":  "685FD1BCD9B9FDAFE0847A77E261A66B98E4FDE05F01B67CD9AC094A74C01AB5"
+    },
+    {
+        "path":  "lib\\features\\transport\\vehicle_component.dart",
+        "sha256":  "09FE657B69E761F454CD3C8BE0C4B60D41936A5E5BD0847BF00AB414D883EE39"
+    },
+    {
+        "path":  "lib\\features\\ui\\builder_overlay.dart",
+        "sha256":  "5F0ED4DC7F65D37BA354B07741BB7121DD3CFE0332315BF294BD22D88C8FA527"
+    },
+    {
+        "path":  "lib\\features\\ui\\factory_info_panel.dart",
+        "sha256":  "403AB10B5A0C3577A2C4E0554BD0562113D0346E38E1F0E7ABB3419E1A98D14D"
+    },
+    {
+        "path":  "lib\\features\\ui\\field_info_panel.dart",
+        "sha256":  "4C9C9D4F2DFBD52AE91FE09E15F9FB209D39D2D88C49C079C2A0AD2141DB9A7E"
+    },
+    {
+        "path":  "lib\\features\\ui\\game_hud.dart",
+        "sha256":  "5D4363435479301DAB8131B4A0B26F994BCB582C0F0EDD4030A1658FF777CB65"
+    },
+    {
+        "path":  "lib\\features\\ui\\game_navigation.dart",
+        "sha256":  "47A3B97F6533E5D0E9BDB9C01F5F25BAE0276808D9C27AB6322FEF0253DF7A87"
+    },
+    {
+        "path":  "lib\\features\\ui\\game_notifications.dart",
+        "sha256":  "902FA6ED05E3242AE11E17F09B79D88E048E9DA1DD175EC00DCA643BE5EFE9A9"
+    },
+    {
+        "path":  "lib\\features\\ui\\game_screen.dart",
+        "sha256":  "0AB73B232F22A223B87C2346E3A342AE2DD3C8680AA021298137081F39D32951"
+    },
+    {
+        "path":  "lib\\features\\ui\\player_panels.dart",
+        "sha256":  "082D0E3D5234AAC0337724B2248E5B7CFDC9D33E22D8EE5DE51323D7A6B22CBC"
+    },
+    {
+        "path":  "lib\\features\\ui\\transport_info_panel.dart",
+        "sha256":  "731EDF3C98D59A31BBE6B766500BEA0BD9D5983643569EA684B6CF98A8127E21"
+    },
+    {
+        "path":  "lib\\features\\ui\\worker_info_panel.dart",
+        "sha256":  "AF7463122DC5FF8242230D560FFEABE6E289AAFE8C9B22BA7E635F1724866867"
+    },
+    {
+        "path":  "lib\\features\\workers\\harvest_job.dart",
+        "sha256":  "097EC06B12E78188C31F974978AA4A68FBEAB1CFA88E204E46966AABCA869579"
+    },
+    {
+        "path":  "lib\\features\\workers\\job_system.dart",
+        "sha256":  "D7088446341F6E3E1CE9A7A932A8E3CD055B60758078967734E3F9EEBCE55D23"
+    },
+    {
+        "path":  "lib\\features\\workers\\worker.dart",
+        "sha256":  "94CDEDC14AD083640DF59528F4A7F779827A609D95CF1A09186A3135295BA38D"
+    },
+    {
+        "path":  "lib\\features\\workers\\worker_component.dart",
+        "sha256":  "79D26205737238F7CB857F2C07B516DD3D5E56ADE2ABE50A964697A6D7A63E34"
+    },
+    {
+        "path":  "lib\\features\\workers\\worker_config.dart",
+        "sha256":  "0DC7407ACC36FBDAF2D00C92FF299E7CF4C287ADDF20FB45930B5BC3F8CE9CD6"
+    },
+    {
+        "path":  "lib\\features\\workers\\worker_prototype.dart",
+        "sha256":  "426557A194D0CDA238C3B774BEEE4ADBEFD63D812A189CD69D2D8C8403F27F54"
+    },
+    {
+        "path":  "lib\\game\\cay_game.dart",
+        "sha256":  "766E1B4D5D709145F6ED8FCE2DF9945E2932566B7639A904EA394C0C041299FD"
+    },
+    {
+        "path":  "lib\\game\\camera\\management_camera.dart",
+        "sha256":  "825B9F80D46E55A7EC30650C53A9816B7386F7768EE3F27A41EC9F7395B6A90C"
+    },
+    {
+        "path":  "lib\\game\\components\\grid_debug_component.dart",
+        "sha256":  "63F86774814D8D6EBB77530A2D70097BD5C68360AA577717D68BCB90B13D5512"
+    },
+    {
+        "path":  "lib\\game\\components\\terrain_component.dart",
+        "sha256":  "78BCE15F9F93815152646008306A33FE6A899F50EBC0F255369C16C1A7096EAC"
+    },
+    {
+        "path":  "lib\\game\\components\\world_entity.dart",
+        "sha256":  "24B46BD065B68A357C800583ACE7B39CBDC66CB349BD8A517945B2A6D6128BF5"
+    },
+    {
+        "path":  "lib\\game\\models\\entity_definition.dart",
+        "sha256":  "71C4B4DC82901A0B680DB0A9DE28C91336094D435587603984B73B3FF8B5B318"
+    },
+    {
+        "path":  "lib\\game\\models\\game_config.dart",
+        "sha256":  "F241EEB348615E894AC7A0150AA620B8100C752D42BF5188FEB0E26DFC60B59E"
+    },
+    {
+        "path":  "lib\\game\\models\\job.dart",
+        "sha256":  "84C34F4BEF564894263C61E05F4CABAECAB699BD2DABC8CF8D277CBB39898218"
+    },
+    {
+        "path":  "lib\\game\\systems\\asset_catalog.dart",
+        "sha256":  "4DDFFCB36F6A4C0FBDB23D36309BEA75BACF0944D95CAB97A48C8216D0005966"
+    },
+    {
+        "path":  "lib\\game\\systems\\depth_sorter.dart",
+        "sha256":  "5E1AFCA8548C2623B4DDE67F1E6CBDB4D5B5A136951D4C0E9BC150899F1AC0BC"
+    },
+    {
+        "path":  "lib\\game\\systems\\grid_pathfinder.dart",
+        "sha256":  "408D7B75131D9311B221289E89F3AF39DCC2ABE289ED02DF4965FC1C78E2F5A1"
+    },
+    {
+        "path":  "lib\\game\\systems\\world_simulation.dart",
+        "sha256":  "8FCF0D3B6413926CE15AA4282D7E109BDAC414D340D47AFE300D231E8A17BFAB"
+    },
+    {
+        "path":  "lib\\game\\world\\isometric_grid.dart",
+        "sha256":  "3038449D64DBBEEC573D2F338D5091807BE67CEBA5A7B39D0A03E9212DFD4C07"
+    },
+    {
+        "path":  "lib\\game\\world\\map_setup.dart",
+        "sha256":  "68B73D9C9427D9CA97D5F56D4A14660F4EA8B94D0EA1F76DA9509E02DC375AA5"
+    },
+    {
+        "path":  "lib\\game\\world\\prototype_map.dart",
+        "sha256":  "9E7F72B81C562E249491D23F0CCC4B238275E057A10D90B5B7D6FEFC7602CC55"
+    },
+    {
+        "path":  "lib\\game\\world\\road_tiles.dart",
+        "sha256":  "21E860627E6A14CAEE600CD5A6563FE1EAE05A3D37E3746899CBD7141C0DD7CB"
+    }
+]

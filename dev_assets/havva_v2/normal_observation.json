@@ -1,0 +1,25 @@
+{
+  "checks": [
+    "Gerçek başlangıç işçisi Havva, makas ve ekim",
+    "Otomatik göreve fiziksel yürüyüş",
+    "Gerçek hasat: Havva 10/50 XP",
+    "Hasat Altın üretmedi",
+    "Gerçek 25 kg otomatik teslimat ve Seviye 2",
+    "Tamamlandı"
+  ],
+  "exceptions": [],
+  "sizes": [
+    [
+      1280,
+      720
+    ],
+    [
+      960,
+      540
+    ],
+    [
+      844,
+      390
+    ]
+  ]
+}

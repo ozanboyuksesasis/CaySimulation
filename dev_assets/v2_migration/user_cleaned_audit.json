@@ -1,0 +1,92 @@
+﻿[
+    {
+        "filename":  "14_TEA_TRANSPORT_TRUCK.png",
+        "width":  1104,
+        "height":  832,
+        "alpha":  true,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+        "sha256":  "85B8AEE31C78EA46F6EC7F9ADED6DDD94AAC052BE7B4C27A45BC98B37B0C056C",
+        "source":  "Downloads/user-cleaned",
+        "visualReview":  "Accepted: intact roofs, sleeves and silhouettes; transparent exterior."
+    },
+    {
+        "filename":  "15_FARMER_MALE.png",
+        "width":  832,
+        "height":  1104,
+        "alpha":  true,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+        "sha256":  "F876469680FAEC8A342555D58FA89A57F1C802A04AC749FB58B690CC9FDAEDE4",
+        "source":  "Downloads/user-cleaned",
+        "visualReview":  "Accepted: intact roofs, sleeves and silhouettes; transparent exterior."
+    },
+    {
+        "filename":  "19_TEA_MERCHANT.png",
+        "width":  832,
+        "height":  1104,
+        "alpha":  true,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+        "sha256":  "6FE5F3B55EA37113430A7776B664DA3A1B1F595C5B4B6A6BA7C4471D7E237029",
+        "source":  "Downloads/user-cleaned",
+        "visualReview":  "Accepted: intact roofs, sleeves and silhouettes; transparent exterior."
+    },
+    {
+        "filename":  "21_TEA_FACTORY_SUPERVISOR.png",
+        "width":  1104,
+        "height":  832,
+        "alpha":  true,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+        "sha256":  "74F035E52CF381D1BAAD28FBBF38F5BB2B01D6F6EAAC63CD7B06ECB716282430",
+        "source":  "Downloads/user-cleaned",
+        "visualReview":  "Accepted: intact roofs, sleeves and silhouettes; transparent exterior."
+    },
+    {
+        "filename":  "23_VILLAGE_ELDER.png",
+        "width":  1104,
+        "height":  832,
+        "alpha":  true,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+        "sha256":  "7B87C2E7A4CC496FF2FBF4EE19042C2415EF29AF5BB606B3415AA6040A3F8448",
+        "source":  "Downloads/user-cleaned",
+        "visualReview":  "Accepted: intact roofs, sleeves and silhouettes; transparent exterior."
+    },
+    {
+        "filename":  "38_DELIVERY_TRUCK.png",
+        "width":  1104,
+        "height":  832,
+        "alpha":  true,
+        "cornerAlpha":  [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+        "sha256":  "AF2E9B4BBDDC3F1E5780FAA5B9208197AA1703E8CEAB2A959404B37977F9489B",
+        "source":  "Downloads/user-cleaned",
+        "visualReview":  "Accepted: intact roofs, sleeves and silhouettes; transparent exterior."
+    }
+]

@@ -1,0 +1,472 @@
+[
+  {
+    "source": "25_DIRT_ROAD_SET.png",
+    "output": "tiles/roads/road_curve.png",
+    "box": [
+      45,
+      20,
+      540,
+      395
+    ]
+  },
+  {
+    "source": "25_DIRT_ROAD_SET.png",
+    "output": "tiles/roads/road_straight_vertical.png",
+    "box": [
+      530,
+      80,
+      805,
+      565
+    ]
+  },
+  {
+    "source": "25_DIRT_ROAD_SET.png",
+    "output": "tiles/roads/road_tree_large.png",
+    "box": [
+      750,
+      20,
+      1070,
+      285
+    ]
+  },
+  {
+    "source": "25_DIRT_ROAD_SET.png",
+    "output": "tiles/roads/road_straight_horizontal.png",
+    "box": [
+      45,
+      410,
+      540,
+      790
+    ]
+  },
+  {
+    "source": "25_DIRT_ROAD_SET.png",
+    "output": "tiles/roads/road_shrub.png",
+    "box": [
+      800,
+      300,
+      1050,
+      555
+    ]
+  },
+  {
+    "source": "25_DIRT_ROAD_SET.png",
+    "output": "tiles/roads/road_tree_small.png",
+    "box": [
+      525,
+      555,
+      810,
+      790
+    ]
+  },
+  {
+    "source": "25_DIRT_ROAD_SET.png",
+    "output": "tiles/roads/road_gate.png",
+    "box": [
+      800,
+      550,
+      1070,
+      790
+    ]
+  },
+  {
+    "source": "26_STONE_PATH_SET.png",
+    "output": "tiles/paths/path_vertical.png",
+    "box": [
+      45,
+      25,
+      245,
+      345
+    ]
+  },
+  {
+    "source": "26_STONE_PATH_SET.png",
+    "output": "tiles/paths/path_junction_cross.png",
+    "box": [
+      170,
+      20,
+      755,
+      595
+    ]
+  },
+  {
+    "source": "26_STONE_PATH_SET.png",
+    "output": "tiles/paths/path_raised_platform.png",
+    "box": [
+      615,
+      20,
+      1035,
+      330
+    ]
+  },
+  {
+    "source": "26_STONE_PATH_SET.png",
+    "output": "tiles/paths/path_vertical_stairs.png",
+    "box": [
+      745,
+      345,
+      1045,
+      800
+    ]
+  },
+  {
+    "source": "26_STONE_PATH_SET.png",
+    "output": "tiles/paths/path_platform.png",
+    "box": [
+      45,
+      550,
+      435,
+      825
+    ]
+  },
+  {
+    "source": "26_STONE_PATH_SET.png",
+    "output": "tiles/paths/path_steps.png",
+    "box": [
+      480,
+      590,
+      750,
+      810
+    ]
+  },
+  {
+    "source": "27_STONE_WALL_SET.png",
+    "output": "tiles/walls/stone_wall_enclosure.png",
+    "box": [
+      80,
+      70,
+      1020,
+      760
+    ]
+  },
+  {
+    "source": "28_STREAM_SET.png",
+    "output": "tiles/streams/stream_waterfall_source.png",
+    "box": [
+      0,
+      0,
+      465,
+      420
+    ]
+  },
+  {
+    "source": "28_STREAM_SET.png",
+    "output": "tiles/streams/stream_winding.png",
+    "box": [
+      300,
+      30,
+      1104,
+      650
+    ]
+  },
+  {
+    "source": "28_STREAM_SET.png",
+    "output": "tiles/streams/stream_waterfall_end.png",
+    "box": [
+      620,
+      430,
+      1104,
+      832
+    ]
+  },
+  {
+    "source": "29_TEA_SACK_SET.png",
+    "output": "items/tea_sacks/tea_sack_empty_folded.png",
+    "box": [
+      130,
+      60,
+      520,
+      350
+    ]
+  },
+  {
+    "source": "29_TEA_SACK_SET.png",
+    "output": "items/tea_sacks/tea_sack_spilling.png",
+    "box": [
+      535,
+      60,
+      915,
+      345
+    ]
+  },
+  {
+    "source": "29_TEA_SACK_SET.png",
+    "output": "items/tea_sacks/tea_sack_quarter.png",
+    "box": [
+      65,
+      400,
+      365,
+      750
+    ]
+  },
+  {
+    "source": "29_TEA_SACK_SET.png",
+    "output": "items/tea_sacks/tea_sack_half.png",
+    "box": [
+      365,
+      385,
+      735,
+      760
+    ]
+  },
+  {
+    "source": "29_TEA_SACK_SET.png",
+    "output": "items/tea_sacks/tea_sack_full.png",
+    "box": [
+      705,
+      350,
+      1060,
+      760
+    ]
+  },
+  {
+    "source": "30_TEA_BASKET_SET.png",
+    "output": "items/tea_baskets/tea_basket_empty_small.png",
+    "box": [
+      55,
+      140,
+      330,
+      390
+    ]
+  },
+  {
+    "source": "30_TEA_BASKET_SET.png",
+    "output": "items/tea_baskets/tea_basket_empty_large.png",
+    "box": [
+      350,
+      75,
+      700,
+      390
+    ]
+  },
+  {
+    "source": "30_TEA_BASKET_SET.png",
+    "output": "items/tea_baskets/tea_basket_back_full.png",
+    "box": [
+      690,
+      20,
+      1070,
+      390
+    ]
+  },
+  {
+    "source": "30_TEA_BASKET_SET.png",
+    "output": "items/tea_baskets/tea_basket_quarter.png",
+    "box": [
+      20,
+      430,
+      370,
+      800
+    ]
+  },
+  {
+    "source": "30_TEA_BASKET_SET.png",
+    "output": "items/tea_baskets/tea_basket_half.png",
+    "box": [
+      350,
+      420,
+      720,
+      800
+    ]
+  },
+  {
+    "source": "30_TEA_BASKET_SET.png",
+    "output": "items/tea_baskets/tea_basket_full.png",
+    "box": [
+      690,
+      400,
+      1090,
+      805
+    ]
+  },
+  {
+    "source": "37_TEA_PACKAGE_SET.png",
+    "output": "items/tea_packages/tea_shipping_cartons.png",
+    "box": [
+      70,
+      210,
+      485,
+      570
+    ]
+  },
+  {
+    "source": "37_TEA_PACKAGE_SET.png",
+    "output": "items/tea_packages/tea_package_large_a.png",
+    "box": [
+      420,
+      55,
+      680,
+      390
+    ]
+  },
+  {
+    "source": "37_TEA_PACKAGE_SET.png",
+    "output": "items/tea_packages/tea_package_large_b.png",
+    "box": [
+      610,
+      110,
+      855,
+      430
+    ]
+  },
+  {
+    "source": "37_TEA_PACKAGE_SET.png",
+    "output": "items/tea_packages/tea_package_tall.png",
+    "box": [
+      785,
+      175,
+      1030,
+      545
+    ]
+  },
+  {
+    "source": "37_TEA_PACKAGE_SET.png",
+    "output": "items/tea_packages/tea_package_medium_a.png",
+    "box": [
+      285,
+      385,
+      575,
+      675
+    ]
+  },
+  {
+    "source": "37_TEA_PACKAGE_SET.png",
+    "output": "items/tea_packages/tea_package_medium_b.png",
+    "box": [
+      565,
+      365,
+      820,
+      660
+    ]
+  },
+  {
+    "source": "37_TEA_PACKAGE_SET.png",
+    "output": "items/tea_packages/tea_package_small.png",
+    "box": [
+      485,
+      545,
+      665,
+      755
+    ]
+  },
+  {
+    "source": "40_DECORATION_SET_A.png",
+    "output": "decorations/deciduous_tree.png",
+    "box": [
+      20,
+      15,
+      265,
+      315
+    ]
+  },
+  {
+    "source": "40_DECORATION_SET_A.png",
+    "output": "decorations/wooden_fence.png",
+    "box": [
+      245,
+      40,
+      625,
+      315
+    ]
+  },
+  {
+    "source": "40_DECORATION_SET_A.png",
+    "output": "decorations/evergreen_tree.png",
+    "box": [
+      610,
+      30,
+      840,
+      310
+    ]
+  },
+  {
+    "source": "40_DECORATION_SET_A.png",
+    "output": "decorations/large_tree.png",
+    "box": [
+      820,
+      10,
+      1080,
+      325
+    ]
+  },
+  {
+    "source": "40_DECORATION_SET_A.png",
+    "output": "decorations/wooden_gate.png",
+    "box": [
+      25,
+      305,
+      270,
+      575
+    ]
+  },
+  {
+    "source": "40_DECORATION_SET_A.png",
+    "output": "decorations/evergreen_rock_cluster.png",
+    "box": [
+      250,
+      320,
+      510,
+      585
+    ]
+  },
+  {
+    "source": "40_DECORATION_SET_A.png",
+    "output": "decorations/fence_corner.png",
+    "box": [
+      485,
+      300,
+      865,
+      605
+    ]
+  },
+  {
+    "source": "40_DECORATION_SET_A.png",
+    "output": "decorations/small_evergreen_tree.png",
+    "box": [
+      835,
+      285,
+      1080,
+      590
+    ]
+  },
+  {
+    "source": "40_DECORATION_SET_A.png",
+    "output": "decorations/wooden_bench.png",
+    "box": [
+      20,
+      555,
+      325,
+      830
+    ]
+  },
+  {
+    "source": "40_DECORATION_SET_A.png",
+    "output": "decorations/rustic_lamp.png",
+    "box": [
+      295,
+      525,
+      475,
+      830
+    ]
+  },
+  {
+    "source": "40_DECORATION_SET_A.png",
+    "output": "decorations/rock_cluster.png",
+    "box": [
+      455,
+      545,
+      815,
+      830
+    ]
+  },
+  {
+    "source": "40_DECORATION_SET_A.png",
+    "output": "decorations/stacked_firewood.png",
+    "box": [
+      790,
+      550,
+      1090,
+      830
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "routes": {
+    "havva": [
+      "SE_idle_IDLE",
+      "SE_walk_A",
+      "SE_walk_IDLE",
+      "NE_walk_A",
+      "NE_walk_IDLE",
+      "NE_idle_IDLE",
+      "NW_walk_A",
+      "NW_walk_IDLE",
+      "NW_idle_IDLE",
+      "SW_walk_A",
+      "SW_walk_IDLE",
+      "SW_idle_IDLE"
+    ],
+    "turhan": [
+      "SE_idle_IDLE",
+      "SE_walk_A",
+      "SE_walk_IDLE",
+      "SE_walk_B",
+      "NE_walk_A",
+      "NE_walk_IDLE",
+      "NE_walk_B",
+      "NE_idle_IDLE",
+      "NW_walk_A",
+      "NW_walk_IDLE",
+      "NW_walk_B",
+      "NW_idle_IDLE",
+      "SW_walk_A",
+      "SW_walk_IDLE",
+      "SW_walk_B",
+      "SW_idle_IDLE"
+    ]
+  },
+  "sizes": [
+    [
+      1280,
+      720
+    ],
+    [
+      960,
+      540
+    ],
+    [
+      844,
+      390
+    ]
+  ],
+  "normal": [
+    {
+      "message": "havva dört yön ve duruşlar doğrulandı",
+      "at": "2026-10-09T15:54:07.274Z"
+    },
+    {
+      "message": "turhan dört yön ve duruşlar doğrulandı",
+      "at": "2026-10-09T15:54:25.647Z"
+    },
+    {
+      "message": "Tamamlandı",
+      "at": "2026-10-09T15:54:25.648Z"
+    }
+  ],
+  "exceptions": []
+}

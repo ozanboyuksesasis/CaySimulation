@@ -1,0 +1,130 @@
+﻿[
+    {
+        "file":  "HAVVA_IDLE_NE.png",
+        "width":  1254,
+        "height":  1254,
+        "pixelFormat":  "Format32bppArgb",
+        "transparent":  1299644,
+        "opaque":  263751,
+        "nonTransparentEdge":  0,
+        "bounds":  [
+                       370,
+                       44,
+                       775,
+                       1177
+                   ],
+        "sha256":  "508D7637189E1413543362ECD546B06281500BA8FECE93CBBCD2E80AE8AAC5F7"
+    },
+    {
+        "file":  "HAVVA_IDLE_NW.png",
+        "width":  1254,
+        "height":  1254,
+        "pixelFormat":  "Format32bppArgb",
+        "transparent":  1290624,
+        "opaque":  272739,
+        "nonTransparentEdge":  0,
+        "bounds":  [
+                       407,
+                       40,
+                       842,
+                       1192
+                   ],
+        "sha256":  "488F617412AEE2F2C2EEC7A77DC54DC6CA44571C9B8DD39551F7A6376112A66F"
+    },
+    {
+        "file":  "HAVVA_IDLE_SE.png",
+        "width":  1254,
+        "height":  1254,
+        "pixelFormat":  "Format32bppArgb",
+        "transparent":  1279727,
+        "opaque":  283229,
+        "nonTransparentEdge":  0,
+        "bounds":  [
+                       359,
+                       38,
+                       802,
+                       1199
+                   ],
+        "sha256":  "2C9FA842927D5894F9EE6A5552DC9EEC55970C9644201042A650CEE2F55D8BF4"
+    },
+    {
+        "file":  "HAVVA_IDLE_SW.png",
+        "width":  1254,
+        "height":  1254,
+        "pixelFormat":  "Format32bppArgb",
+        "transparent":  1297065,
+        "opaque":  266577,
+        "nonTransparentEdge":  0,
+        "bounds":  [
+                       443,
+                       54,
+                       863,
+                       1187
+                   ],
+        "sha256":  "ABC1B1E3ED30C8FF308C89391CD14C6F3B21DF7237BB668545797E9CCA75D6A9"
+    },
+    {
+        "file":  "HAVVA_WALK_NE_A.png",
+        "width":  1254,
+        "height":  1254,
+        "pixelFormat":  "Format32bppArgb",
+        "transparent":  1319026,
+        "opaque":  243907,
+        "nonTransparentEdge":  0,
+        "bounds":  [
+                       377,
+                       45,
+                       855,
+                       1177
+                   ],
+        "sha256":  "2921893F628CDC0385C72CF8ADB300BF48371BEF708DA1EE798EF3418C65890F"
+    },
+    {
+        "file":  "HAVVA_WALK_NW_A.png",
+        "width":  1254,
+        "height":  1254,
+        "pixelFormat":  "Format32bppArgb",
+        "transparent":  1304242,
+        "opaque":  258312,
+        "nonTransparentEdge":  0,
+        "bounds":  [
+                       337,
+                       41,
+                       840,
+                       1188
+                   ],
+        "sha256":  "4D511D9A84C6F4A0FB4F940367230109FDCDB8A80CC91A595998F9111422E08D"
+    },
+    {
+        "file":  "HAVVA_WALK_SE_A.png",
+        "width":  1254,
+        "height":  1254,
+        "pixelFormat":  "Format32bppArgb",
+        "transparent":  1299407,
+        "opaque":  263886,
+        "nonTransparentEdge":  0,
+        "bounds":  [
+                       366,
+                       46,
+                       876,
+                       1187
+                   ],
+        "sha256":  "FEE417CBC675CC8E34FF0486B71065658E0B4D2781D9BE860EF2325D18CDA1FC"
+    },
+    {
+        "file":  "HAVVA_WALK_SW_A.png",
+        "width":  1254,
+        "height":  1254,
+        "pixelFormat":  "Format32bppArgb",
+        "transparent":  1300815,
+        "opaque":  262167,
+        "nonTransparentEdge":  0,
+        "bounds":  [
+                       336,
+                       55,
+                       875,
+                       1180
+                   ],
+        "sha256":  "9734ADB4AC4B4E0D2472DD9847826F3801597EA0464C2851D0978E190F20AF09"
+    }
+]

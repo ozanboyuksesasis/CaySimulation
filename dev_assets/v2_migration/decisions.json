@@ -1,0 +1,170 @@
+﻿[
+    {
+        "filename":  "05_FARMER_HOUSE.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "7860FF558AB73BF4226BE970934D57E54AAABA6A0970153E2B983DF4020F43D3"
+    },
+    {
+        "filename":  "06_TEA_WAREHOUSE.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "D0679CB904C2E8407D3B624679D6C970703C5B3B2E95456BF6E40EE4C68D7108"
+    },
+    {
+        "filename":  "07_TEA_DRYING_STATION.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "52BBCDEB3BC897154D1DF5FFDF8D50033EE8267A26A2FFC910E52690B51237D5"
+    },
+    {
+        "filename":  "08_TEA_PROCESSING_WORKSHOP.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "DD46C8D6A66BEC41602272A232BDE848509D7144BA830FA5F626BEA194BD4F15"
+    },
+    {
+        "filename":  "09_TEA_FACTORY.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "39F0BD132D46D2D06064983E3BD1BB75B748FFE10F3A2C5DC7A582C8C025B044"
+    },
+    {
+        "filename":  "10_VILLAGE_TEA_SHOP.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "549EBBA47F7E989F3113DE3066B64D11060130FC10B420295810DE7D1E9947CE"
+    },
+    {
+        "filename":  "11_STONE_BRIDGE.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "E9119726344B0354352325F13367C386B0A5779C21009F86B6ECD0C5F6F29F78"
+    },
+    {
+        "filename":  "12_VILLAGE_WELL.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "9C5F50416E62CF4D9817872D3600B3098CBFD3CE242E6FD3DADCAC27ED0FC035"
+    },
+    {
+        "filename":  "13_SMALL_TRACTOR.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "6B88C57B73C2E0617A572AC34A800FA9F42CBE9769D496747ABA2631A27BA692"
+    },
+    {
+        "filename":  "14_TEA_TRANSPORT_TRUCK.png",
+        "migrated":  false,
+        "reason":  "Cab roof removed. V1 also damaged; untouched original master restored.",
+        "sha256":  "E527E1F6DF03ADF4E5C7E78A72EC5392D407C0FAB353D08B79B2F47612BFF3F6"
+    },
+    {
+        "filename":  "15_FARMER_MALE.png",
+        "migrated":  false,
+        "reason":  "Cream shirt shoulder and sleeve pixels removed. V1 also damaged; untouched original master restored.",
+        "sha256":  "E4B7EA7B808E10BE8E417AD6C3610D5438F84EBF67671A297C510A117F2F605E"
+    },
+    {
+        "filename":  "16_FARMER_FEMALE.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "F0C7F04F5447B76716E572678E2E20AB8BCD39FE467D8876F5F23B50EB9410C3"
+    },
+    {
+        "filename":  "17_FACTORY_WORKER.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "956B060EF7F677E43A621EE652A40FB67A2DB4CD0CF734CD9D4F6FA8C0AD2F63"
+    },
+    {
+        "filename":  "18_MECHANIC.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "43864BD2CC71809E2E784FDB61438026C0A01652A4A6D0B90835DC2DFBD32BF9"
+    },
+    {
+        "filename":  "19_TEA_MERCHANT.png",
+        "migrated":  false,
+        "reason":  "Right cream sleeve removed. V1 also damaged; untouched original master restored.",
+        "sha256":  "74B05E8279D57595106DA3264A41CE4516DF9E990D922CA7D940DD8EB8E7CF2A"
+    },
+    {
+        "filename":  "20_TEA_FACTORY_WORKER.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "039606E84689FE2F9F3C47C18A76B9390FBD988338B1BD2607D598CC0F5D1C17"
+    },
+    {
+        "filename":  "21_TEA_FACTORY_SUPERVISOR.png",
+        "migrated":  false,
+        "reason":  "Cream sleeves/shoulders removed. V1 also damaged; untouched original master restored.",
+        "sha256":  "6D4840B8AB7D42E17D04E0ED78BFC5E32837B49A2FFB71C94C25621C72C35CC9"
+    },
+    {
+        "filename":  "22_TRUCK_DRIVER.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "F065053B5B6110BCC49FA2931AE92CD2A644A705EE299841F679CB13430ED331"
+    },
+    {
+        "filename":  "23_VILLAGE_ELDER.png",
+        "migrated":  false,
+        "reason":  "Right cream sleeve/shoulder removed. V1 also damaged; untouched original master restored.",
+        "sha256":  "7BB80C615A8F6C4284EE332CD16E5A3882FB529F0CE06741992ED29E758A94C4"
+    },
+    {
+        "filename":  "24_TEA_MERCHANT.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "52D38B7A87842B41440DCB37A539DA116133E6D9587F347763F5AA66EF3CB412"
+    },
+    {
+        "filename":  "31_WHEELBARROW.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "76261A03B6EAE97B5A283664A6A8C8F11065E9BE7E840881EE8F648AC186F326"
+    },
+    {
+        "filename":  "32_TEA_STRETCHER.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "821093D621909CE8532FF756D7228D30B45E16633EDA4866D1A32EBFB610C33F"
+    },
+    {
+        "filename":  "33_TEA_HARVESTER_MOTOR.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "87995C0FAB5908731876902CC3CBC9C11E1DAABA8BE775743992D2878C35D2BA"
+    },
+    {
+        "filename":  "34_TEA_SHEARS.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "459F245F16A9A49B3CCDF6014EA4BA9C24C37E8F7AF890AA1CA0DC23334655AB"
+    },
+    {
+        "filename":  "35_TEA_COLLECTION_CENTER.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "E65A8597AA08A3340EA7980DD1C524DE13CA9BF113C5B192180E32B4B88895A1"
+    },
+    {
+        "filename":  "36_PACKAGING_FACTORY.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "165F27284325CC3F8D8284566EF68DF05A9C08CF39D474EB55AB0C068DF7F15E"
+    },
+    {
+        "filename":  "38_DELIVERY_TRUCK.png",
+        "migrated":  false,
+        "reason":  "Cargo box roof removed. V1 also damaged; untouched original master restored.",
+        "sha256":  "9FE0F7E298948A4A98CECB2952D27889D5CEE8FA7CC6F26AB5D4162DB2B5BE5F"
+    },
+    {
+        "filename":  "39_MARKET.png",
+        "migrated":  true,
+        "reason":  "Passed paired checkerboard visual review; exact transparent ZIP bytes.",
+        "sha256":  "AE2C7AE7D16C143E952474A7D86B21BE1546214A631124379683570C30B82647"
+    }
+]

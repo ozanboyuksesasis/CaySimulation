@@ -1,0 +1,162 @@
+﻿[
+    {
+        "filename":  "01_FIELD_EMPTY.png",
+        "identical":  false
+    },
+    {
+        "filename":  "02_FIELD_PLANTED.png",
+        "identical":  false
+    },
+    {
+        "filename":  "03_FIELD_GROWING.png",
+        "identical":  false
+    },
+    {
+        "filename":  "04_FIELD_HARVEST.png",
+        "identical":  false
+    },
+    {
+        "filename":  "05_FARMER_HOUSE.png",
+        "identical":  true
+    },
+    {
+        "filename":  "06_TEA_WAREHOUSE.png",
+        "identical":  true
+    },
+    {
+        "filename":  "07_TEA_DRYING_STATION.png",
+        "identical":  true
+    },
+    {
+        "filename":  "08_TEA_PROCESSING_WORKSHOP.png",
+        "identical":  true
+    },
+    {
+        "filename":  "09_TEA_FACTORY.png",
+        "identical":  true
+    },
+    {
+        "filename":  "10_VILLAGE_TEA_SHOP.png",
+        "identical":  true
+    },
+    {
+        "filename":  "11_STONE_BRIDGE.png",
+        "identical":  true
+    },
+    {
+        "filename":  "12_VILLAGE_WELL.png",
+        "identical":  true
+    },
+    {
+        "filename":  "13_SMALL_TRACTOR.png",
+        "identical":  true
+    },
+    {
+        "filename":  "14_TEA_TRANSPORT_TRUCK.png",
+        "identical":  true
+    },
+    {
+        "filename":  "15_FARMER_MALE.png",
+        "identical":  true
+    },
+    {
+        "filename":  "16_FARMER_FEMALE.png",
+        "identical":  true
+    },
+    {
+        "filename":  "17_FACTORY_WORKER.png",
+        "identical":  true
+    },
+    {
+        "filename":  "18_MECHANIC.png",
+        "identical":  true
+    },
+    {
+        "filename":  "19_TEA_MERCHANT.png",
+        "identical":  true
+    },
+    {
+        "filename":  "20_TEA_FACTORY_WORKER.png",
+        "identical":  true
+    },
+    {
+        "filename":  "21_TEA_FACTORY_SUPERVISOR.png",
+        "identical":  true
+    },
+    {
+        "filename":  "22_TRUCK_DRIVER.png",
+        "identical":  true
+    },
+    {
+        "filename":  "23_VILLAGE_ELDER.png",
+        "identical":  true
+    },
+    {
+        "filename":  "24_TEA_MERCHANT.png",
+        "identical":  true
+    },
+    {
+        "filename":  "25_DIRT_ROAD_SET.png",
+        "identical":  false
+    },
+    {
+        "filename":  "26_STONE_PATH_SET.png",
+        "identical":  false
+    },
+    {
+        "filename":  "27_STONE_WALL_SET.png",
+        "identical":  false
+    },
+    {
+        "filename":  "28_STREAM_SET.png",
+        "identical":  false
+    },
+    {
+        "filename":  "29_TEA_SACK_SET.png",
+        "identical":  false
+    },
+    {
+        "filename":  "30_TEA_BASKET_SET.png",
+        "identical":  false
+    },
+    {
+        "filename":  "31_WHEELBARROW.png",
+        "identical":  true
+    },
+    {
+        "filename":  "32_TEA_STRETCHER.png",
+        "identical":  true
+    },
+    {
+        "filename":  "33_TEA_HARVESTER_MOTOR.png",
+        "identical":  true
+    },
+    {
+        "filename":  "34_TEA_SHEARS.png",
+        "identical":  true
+    },
+    {
+        "filename":  "35_TEA_COLLECTION_CENTER.png",
+        "identical":  true
+    },
+    {
+        "filename":  "36_PACKAGING_FACTORY.png",
+        "identical":  true
+    },
+    {
+        "filename":  "37_TEA_PACKAGE_SET.png",
+        "identical":  false
+    },
+    {
+        "filename":  "38_DELIVERY_TRUCK.png",
+        "identical":  true
+    },
+    {
+        "filename":  "39_MARKET.png",
+        "identical":  true
+    },
+    {
+        "filename":  "40_DECORATION_SET_A.png",
+        "identical":  false
+    }
+]

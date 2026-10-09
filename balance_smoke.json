@@ -1,0 +1,308 @@
+{
+  "schema": 1,
+  "stepMs": 250,
+  "seed": 10101,
+  "results": [
+    {
+      "scenario": "E_MINIMUM",
+      "seed": 10101,
+      "checkpoints": [
+        {
+          "scenario": "E_MINIMUM",
+          "seed": 10101,
+          "seconds": 300.0,
+          "minutes": 5.0,
+          "startingGold": 12000,
+          "gold": 2250,
+          "revenue": 2250,
+          "rewardGold": 0,
+          "spending": 12000,
+          "netCashFlow": -9750,
+          "grossGoldPerMinute": 450.0,
+          "businessLevel": 3,
+          "businessXp": 162,
+          "levelTimes": {
+            "1": 0.0,
+            "2": 39.2,
+            "3": 151.2
+          },
+          "unlockTimes": {
+            "field": 0.0,
+            "collection_center": 0.0,
+            "road": 0.0,
+            "well": 0.0,
+            "teaShears": 0.0,
+            "factory": 39.2,
+            "packaging": 39.2,
+            "tea_shop": 39.2,
+            "havva": 39.2,
+            "warehouse": 151.2
+          },
+          "workers": [
+            {
+              "id": "turhan",
+              "level": 2,
+              "xp": 50,
+              "nextXp": 100,
+              "equipment": "teaShears",
+              "points": 1,
+              "harvestPoints": 0,
+              "movementPoints": 0,
+              "harvestSeconds": 4.901961,
+              "movementSpeed": 2.0,
+              "utilization": 0.16764459346186086,
+              "harvests": 10
+            }
+          ],
+          "fieldCount": 1,
+          "workerCount": 1,
+          "fieldLevels": [
+            1
+          ],
+          "harvestedRawKg": 250,
+          "fieldStockKg": 0,
+          "truckKg": 0,
+          "collectionKg": 0,
+          "factoryRawKg": 50,
+          "factoryInputKg": 0,
+          "factoryBatches": 2,
+          "factoryDryKg": 0,
+          "packagingInputKg": 0,
+          "packagingBatches": 2,
+          "packagedStockUnits": 15,
+          "shelfStockUnits": 10,
+          "soldUnits": 15,
+          "customersSpawned": 25,
+          "customersArrived": 25,
+          "customersServed": 15,
+          "customersLost": 9,
+          "activeCustomers": 1,
+          "maxActiveCustomers": 2,
+          "shelfStockoutFraction": 0.40254652301665034,
+          "truckUtilization": 0.6324074074074074,
+          "factoryUtilization": 0.07736943907156674,
+          "packagingUtilization": 0.06237816764132553,
+          "harvestQueue": 0,
+          "transportQueue": 0,
+          "harvestJobs": 10,
+          "transportJobs": 20,
+          "firstSaleSeconds": 151.2,
+          "firstPositiveNetCashFlowSeconds": null,
+          "earned500Seconds": 181.2,
+          "earned1000Seconds": 211.2,
+          "secondFieldAffordableSeconds": 192.0,
+          "secondFieldBuiltSeconds": null,
+          "tutorialCompletedSeconds": 40.5,
+          "truckCapacityLevel": 1,
+          "truckSpeedLevel": 1,
+          "collectionCapacityLevel": 1,
+          "factorySpeedLevel": 1,
+          "packagingSpeedLevel": 1,
+          "shelfLevel": 1,
+          "interventionSeconds": null,
+          "interventionCost": null,
+          "interventionRevenue": null,
+          "blockedSpending": 0,
+          "mainBottleneck": "Tarla büyümesi / hammadde",
+          "invariantChecks": 300,
+          "salesStalledSeconds": 8.75
+        }
+      ],
+      "transactions": [
+        {
+          "seconds": 0.0,
+          "kind": "spending",
+          "amount": 500,
+          "reason": "place:field@5,5",
+          "balance": 11500
+        },
+        {
+          "seconds": 1.75,
+          "kind": "spending",
+          "amount": 1000,
+          "reason": "hire:turhan",
+          "balance": 10500
+        },
+        {
+          "seconds": 3.75,
+          "kind": "spending",
+          "amount": 250,
+          "reason": "equipment:shears",
+          "balance": 10250
+        },
+        {
+          "seconds": 6.0,
+          "kind": "spending",
+          "amount": 250,
+          "reason": "plant:first",
+          "balance": 10000
+        },
+        {
+          "seconds": 30.0,
+          "kind": "spending",
+          "amount": 2500,
+          "reason": "place:collection_center@9,4",
+          "balance": 7500
+        },
+        {
+          "seconds": 41.5,
+          "kind": "spending",
+          "amount": 4000,
+          "reason": "place:factory@9,8",
+          "balance": 3500
+        },
+        {
+          "seconds": 43.5,
+          "kind": "spending",
+          "amount": 2000,
+          "reason": "place:packaging@12,5",
+          "balance": 1500
+        },
+        {
+          "seconds": 44.75,
+          "kind": "spending",
+          "amount": 1500,
+          "reason": "place:tea_shop@6,3",
+          "balance": 0
+        },
+        {
+          "seconds": 151.2,
+          "kind": "revenue",
+          "amount": 150,
+          "reason": "customerPurchaseCompleted",
+          "balance": 150
+        },
+        {
+          "seconds": 161.2,
+          "kind": "revenue",
+          "amount": 150,
+          "reason": "customerPurchaseCompleted",
+          "balance": 300
+        },
+        {
+          "seconds": 171.25,
+          "kind": "revenue",
+          "amount": 150,
+          "reason": "customerPurchaseCompleted",
+          "balance": 450
+        },
+        {
+          "seconds": 181.2,
+          "kind": "revenue",
+          "amount": 150,
+          "reason": "customerPurchaseCompleted",
+          "balance": 600
+        },
+        {
+          "seconds": 191.2,
+          "kind": "revenue",
+          "amount": 150,
+          "reason": "customerPurchaseCompleted",
+          "balance": 750
+        },
+        {
+          "seconds": 201.2,
+          "kind": "revenue",
+          "amount": 150,
+          "reason": "customerPurchaseCompleted",
+          "balance": 900
+        },
+        {
+          "seconds": 211.2,
+          "kind": "revenue",
+          "amount": 150,
+          "reason": "customerPurchaseCompleted",
+          "balance": 1050
+        },
+        {
+          "seconds": 221.2,
+          "kind": "revenue",
+          "amount": 150,
+          "reason": "customerPurchaseCompleted",
+          "balance": 1200
+        },
+        {
+          "seconds": 231.25,
+          "kind": "revenue",
+          "amount": 150,
+          "reason": "customerPurchaseCompleted",
+          "balance": 1350
+        },
+        {
+          "seconds": 241.2,
+          "kind": "revenue",
+          "amount": 150,
+          "reason": "customerPurchaseCompleted",
+          "balance": 1500
+        },
+        {
+          "seconds": 251.2,
+          "kind": "revenue",
+          "amount": 150,
+          "reason": "customerPurchaseCompleted",
+          "balance": 1650
+        },
+        {
+          "seconds": 261.2,
+          "kind": "revenue",
+          "amount": 150,
+          "reason": "customerPurchaseCompleted",
+          "balance": 1800
+        },
+        {
+          "seconds": 271.2,
+          "kind": "revenue",
+          "amount": 150,
+          "reason": "customerPurchaseCompleted",
+          "balance": 1950
+        },
+        {
+          "seconds": 281.25,
+          "kind": "revenue",
+          "amount": 150,
+          "reason": "customerPurchaseCompleted",
+          "balance": 2100
+        },
+        {
+          "seconds": 291.2,
+          "kind": "revenue",
+          "amount": 150,
+          "reason": "customerPurchaseCompleted",
+          "balance": 2250
+        }
+      ],
+      "actions": [
+        {
+          "seconds": 0.0,
+          "action": "place:field",
+          "x": 5,
+          "y": 5
+        },
+        {
+          "seconds": 30.0,
+          "action": "place:collection_center",
+          "x": 9,
+          "y": 4
+        },
+        {
+          "seconds": 41.5,
+          "action": "place:factory",
+          "x": 9,
+          "y": 8
+        },
+        {
+          "seconds": 43.5,
+          "action": "place:packaging",
+          "x": 12,
+          "y": 5
+        },
+        {
+          "seconds": 44.75,
+          "action": "place:tea_shop",
+          "x": 6,
+          "y": 3
+        }
+      ]
+    }
+  ]
+}

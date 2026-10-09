@@ -1,0 +1,461 @@
+﻿[
+    {
+        "path":  "tiles/roads/road_curve.png",
+        "accepted":  false,
+        "reason":  "Curve adÄ±yla eÅŸleÅŸmeyen birleÅŸik T-yol/aÄŸaÃ§/Ã§it sahnesi; gÃ¼venilir modÃ¼ler baÄŸlantÄ± deÄŸil.",
+        "width":  470,
+        "height":  358,
+        "alpha":  true,
+        "sha256":  "F1444AE47AE47A1CEC3FEFCA8A57A084B1565425B854F9C32F26EE853D2279E7"
+    },
+    {
+        "path":  "tiles/roads/road_straight_vertical.png",
+        "accepted":  false,
+        "reason":  "SaÄŸ Ã¼stte komÅŸu nesne kÄ±rpÄ±ntÄ±sÄ±; yolun ucunda aÄŸaÃ§ var.",
+        "width":  263,
+        "height":  459,
+        "alpha":  true,
+        "sha256":  "A3B5E1DD0DFAAE7E688F5A6893F8D5AFCC5F054714B7B424E1E71B0C8C79C847"
+    },
+    {
+        "path":  "tiles/roads/road_tree_large.png",
+        "accepted":  false,
+        "reason":  "Sol kenarda komÅŸu yol/Ã§it piksel ÅŸeridi.",
+        "width":  310,
+        "height":  253,
+        "alpha":  true,
+        "sha256":  "58B8EAACFDE5584AEF3A70251A1DF578D80ED4BFADD036A5574F770E03819091"
+    },
+    {
+        "path":  "tiles/roads/road_straight_horizontal.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  471,
+        "height":  357,
+        "alpha":  true,
+        "sha256":  "1C0C8710136469F77515A26A3FF86335F1C32BF1E181B8AA750BB370024BAA43"
+    },
+    {
+        "path":  "tiles/roads/road_shrub.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  231,
+        "height":  232,
+        "alpha":  true,
+        "sha256":  "1EABEB0EC1C6901FA6651B231C6CAA9996174BBC9AA36F73861F846DA1006DD0"
+    },
+    {
+        "path":  "tiles/roads/road_tree_small.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  262,
+        "height":  210,
+        "alpha":  true,
+        "sha256":  "F66F56BC02CD83854B651B48A484ECA35A6756F53DABFC5EF82205EDBB1DE6E4"
+    },
+    {
+        "path":  "tiles/roads/road_gate.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  245,
+        "height":  210,
+        "alpha":  true,
+        "sha256":  "F264E9FB7B27FDB22817A57CDD037764DE623A3A2798B367509A7CE0F7C320AC"
+    },
+    {
+        "path":  "tiles/paths/path_vertical.png",
+        "accepted":  false,
+        "reason":  "SaÄŸda kopuk kaynak parÃ§alarÄ±; temiz ayrÄ±ÅŸtÄ±rma gÃ¼venilir deÄŸil.",
+        "width":  178,
+        "height":  287,
+        "alpha":  true,
+        "sha256":  "5FC3B4A4CB1AF83C770AB8035B803830B05B912BB6998124A2321EC3DCDCBFB9"
+    },
+    {
+        "path":  "tiles/paths/path_junction_cross.png",
+        "accepted":  false,
+        "reason":  "Sol merdiven, saÄŸ platform ve alt kenarda komÅŸu parÃ§a kÄ±rpÄ±ntÄ±larÄ±.",
+        "width":  585,
+        "height":  564,
+        "alpha":  true,
+        "sha256":  "FA694031E8996AA544993FAFE8DF8BA0EBF354084828BDBD0EC4C52B0ECD09EB"
+    },
+    {
+        "path":  "tiles/paths/path_raised_platform.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  389,
+        "height":  278,
+        "alpha":  true,
+        "sha256":  "CA47FCC61213B8BFF595FE51B115B4EB66D65E57CE676366C6B2EF14368D7585"
+    },
+    {
+        "path":  "tiles/paths/path_vertical_stairs.png",
+        "accepted":  false,
+        "reason":  "SaÄŸ kenarda kopuk kÄ±rpÄ±ntÄ±lar; temiz ayrÄ±ÅŸtÄ±rma gÃ¼venilir deÄŸil.",
+        "width":  265,
+        "height":  412,
+        "alpha":  true,
+        "sha256":  "62F14684ABCE7258FADC977F382A0DF73250760F7132D2D262191E120A759966"
+    },
+    {
+        "path":  "tiles/paths/path_platform.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  352,
+        "height":  238,
+        "alpha":  true,
+        "sha256":  "0D1015CE61EEB148EFBE4768EE121B802663DDE9291FF1B3ED1AB34E21C6B836"
+    },
+    {
+        "path":  "tiles/paths/path_steps.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  229,
+        "height":  167,
+        "alpha":  true,
+        "sha256":  "85CCC9E7A1C916F780A7820BFABDED3EA845F9AAE7A6A7BDD3B16DF6D3889D6E"
+    },
+    {
+        "path":  "tiles/walls/stone_wall_enclosure.png",
+        "accepted":  false,
+        "reason":  "Masterdaki sol ve saÄŸ duvar uÃ§larÄ± kÄ±rpÄ±lmÄ±ÅŸ; iÃ§ krem zemin de korunmuÅŸ.",
+        "width":  940,
+        "height":  629,
+        "alpha":  true,
+        "sha256":  "A9EE46C98A0545CB77BFC062FD2EB0334983657759ADF1812CE802192C3CEEC5"
+    },
+    {
+        "path":  "tiles/streams/stream_waterfall_source.png",
+        "accepted":  false,
+        "reason":  "SaÄŸ alt kÃ¶ÅŸede komÅŸu kÄ±yÄ± parÃ§asÄ±; kesilmiÅŸ akarsu birleÅŸimi.",
+        "width":  450,
+        "height":  356,
+        "alpha":  true,
+        "sha256":  "E147BEB28D85065E18F880229369D151B93FE3B8A90A7CBAA6782E5FEE829EE4"
+    },
+    {
+        "path":  "tiles/streams/stream_winding.png",
+        "accepted":  false,
+        "reason":  "Sol ve alt kenarlarda komÅŸu ÅŸelale/ada parÃ§alarÄ±.",
+        "width":  803,
+        "height":  620,
+        "alpha":  true,
+        "sha256":  "3DC7C3A844C25EEDE4C602C8E0A739D9AB8A839793C573C8E935B65A586E163F"
+    },
+    {
+        "path":  "tiles/streams/stream_waterfall_end.png",
+        "accepted":  false,
+        "reason":  "Sol Ã¼stte komÅŸu kÄ±yÄ± parÃ§asÄ±.",
+        "width":  452,
+        "height":  377,
+        "alpha":  true,
+        "sha256":  "9793FFF224B5FA4FF677900479FA5C4347B76D365F976D555566542B1DB31E67"
+    },
+    {
+        "path":  "items/tea_sacks/tea_sack_empty_folded.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  319,
+        "height":  219,
+        "alpha":  true,
+        "sha256":  "79B4296F3D905F299F041714BBB5D2352E1124E139EAE91EEEFB299B74148359"
+    },
+    {
+        "path":  "items/tea_sacks/tea_sack_spilling.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  299,
+        "height":  216,
+        "alpha":  true,
+        "sha256":  "7DEC976FAB3EFFC369119D03E46E2B1C73F5251593B284D57FD133D5889C1CC9"
+    },
+    {
+        "path":  "items/tea_sacks/tea_sack_quarter.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  236,
+        "height":  265,
+        "alpha":  true,
+        "sha256":  "E5E169EC29827060A8416EB4A2185799ABABA3E8F060EC9945200302CF313BF8"
+    },
+    {
+        "path":  "items/tea_sacks/tea_sack_half.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  301,
+        "height":  308,
+        "alpha":  true,
+        "sha256":  "312D1D61B4537DC3DD00FE13587911C5870F666C435AD6E0B6E33A09A1C1F3E9"
+    },
+    {
+        "path":  "items/tea_sacks/tea_sack_full.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  294,
+        "height":  341,
+        "alpha":  true,
+        "sha256":  "A966BFC712CE58B1434020CE6976517ACC2ED5C3D1D83267AADEAC18C755A23B"
+    },
+    {
+        "path":  "items/tea_baskets/tea_basket_empty_small.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  211,
+        "height":  173,
+        "alpha":  true,
+        "sha256":  "A369E7349A5197CAB81C072CD6B285B45AC2FFEFF63D92BD8C2323A71C40027D"
+    },
+    {
+        "path":  "items/tea_baskets/tea_basket_empty_large.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  275,
+        "height":  240,
+        "alpha":  true,
+        "sha256":  "9FDCCD5E455C64E5FAA9A7F51E207C2B4F83ACD29C9271E362417557D51B0369"
+    },
+    {
+        "path":  "items/tea_baskets/tea_basket_back_full.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  312,
+        "height":  329,
+        "alpha":  true,
+        "sha256":  "E584481FB7BCB78C2990DA1F7C44E1EC86B9396B6853C2ECB8AA0BCB5FA7D60C"
+    },
+    {
+        "path":  "items/tea_baskets/tea_basket_quarter.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  292,
+        "height":  290,
+        "alpha":  true,
+        "sha256":  "ABE48C8448730FBA4C2A8A9051F1B295D23837EDD00ACFA35C0D5EDA3CA10EA6"
+    },
+    {
+        "path":  "items/tea_baskets/tea_basket_half.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  307,
+        "height":  315,
+        "alpha":  true,
+        "sha256":  "6E9E0EA37971232CB0E0872D743C259B6BADD72E7AD8927F42027B17236DCF0E"
+    },
+    {
+        "path":  "items/tea_baskets/tea_basket_full.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  337,
+        "height":  333,
+        "alpha":  true,
+        "sha256":  "09A1B115D346B334F343DE1E60399356C46800258EFF541D824EFAE7616A7D77"
+    },
+    {
+        "path":  "items/tea_packages/tea_shipping_cartons.png",
+        "accepted":  false,
+        "reason":  "Ãœst Ã¼ste binen paketler/komÅŸu kutular ve dÄ±ÅŸ krem zemin kÄ±rpÄ±mda kalmÄ±ÅŸ.",
+        "width":  415,
+        "height":  360,
+        "alpha":  true,
+        "sha256":  "22CEB8B1F92FC0AFE00947E1511D3FB8AA8F66D0598546DB1A6C826B02862CD2"
+    },
+    {
+        "path":  "items/tea_packages/tea_package_large_a.png",
+        "accepted":  false,
+        "reason":  "Ãœst Ã¼ste binen paketler/komÅŸu kutular ve dÄ±ÅŸ krem zemin kÄ±rpÄ±mda kalmÄ±ÅŸ.",
+        "width":  260,
+        "height":  335,
+        "alpha":  true,
+        "sha256":  "204509616CDB4761F54F3638EA1324ECF503AF02F16333ADB2F63F8C02CCE5BD"
+    },
+    {
+        "path":  "items/tea_packages/tea_package_large_b.png",
+        "accepted":  false,
+        "reason":  "Ãœst Ã¼ste binen paketler/komÅŸu kutular ve dÄ±ÅŸ krem zemin kÄ±rpÄ±mda kalmÄ±ÅŸ.",
+        "width":  245,
+        "height":  318,
+        "alpha":  true,
+        "sha256":  "1008AC6E8CE127FFFC00AA0A83FCA8EE77AC8A6508056D40D4DA4C8F53893A20"
+    },
+    {
+        "path":  "items/tea_packages/tea_package_tall.png",
+        "accepted":  false,
+        "reason":  "Ãœst Ã¼ste binen paketler/komÅŸu kutular ve dÄ±ÅŸ krem zemin kÄ±rpÄ±mda kalmÄ±ÅŸ.",
+        "width":  218,
+        "height":  370,
+        "alpha":  true,
+        "sha256":  "782B9C3358A324C3778D63F965369199850C2722C66B492AE3ACF73A1BE6D15D"
+    },
+    {
+        "path":  "items/tea_packages/tea_package_medium_a.png",
+        "accepted":  false,
+        "reason":  "Ãœst Ã¼ste binen paketler/komÅŸu kutular ve dÄ±ÅŸ krem zemin kÄ±rpÄ±mda kalmÄ±ÅŸ.",
+        "width":  290,
+        "height":  290,
+        "alpha":  true,
+        "sha256":  "6E9E87B48620A260A28FC4B32EAB6B9E8ED2042C3880FE12B1F02A681A45987B"
+    },
+    {
+        "path":  "items/tea_packages/tea_package_medium_b.png",
+        "accepted":  false,
+        "reason":  "Ãœst Ã¼ste binen paketler/komÅŸu kutular ve dÄ±ÅŸ krem zemin kÄ±rpÄ±mda kalmÄ±ÅŸ.",
+        "width":  255,
+        "height":  295,
+        "alpha":  true,
+        "sha256":  "2D7B1177A09F6E0889502AB3A9A9C970122488511FB50BA5AC3CDD429A82F8F7"
+    },
+    {
+        "path":  "items/tea_packages/tea_package_small.png",
+        "accepted":  false,
+        "reason":  "Ãœst Ã¼ste binen paketler/komÅŸu kutular ve dÄ±ÅŸ krem zemin kÄ±rpÄ±mda kalmÄ±ÅŸ.",
+        "width":  180,
+        "height":  210,
+        "alpha":  true,
+        "sha256":  "9275FEF4E6B129E637ED6956BCE9C3BB16380B330BBF7CDC57EF84CA08081476"
+    },
+    {
+        "path":  "decorations/deciduous_tree.png",
+        "accepted":  false,
+        "reason":  "SaÄŸ kenarda kopuk komÅŸu nesne pikseli.",
+        "width":  238,
+        "height":  244,
+        "alpha":  true,
+        "sha256":  "63BD4C26993A91E1831EE70625A0AE648119277351CB202FDFF88706AED5A322"
+    },
+    {
+        "path":  "decorations/wooden_fence.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  366,
+        "height":  208,
+        "alpha":  true,
+        "sha256":  "24C215FAF15B6B5B2892BA1947F974D405F244B2D24150655DDFA14D74F5B4F4"
+    },
+    {
+        "path":  "decorations/evergreen_tree.png",
+        "accepted":  false,
+        "reason":  "Sol kenarda komÅŸu Ã§it kÄ±rpÄ±ntÄ±sÄ±.",
+        "width":  217,
+        "height":  209,
+        "alpha":  true,
+        "sha256":  "00B94FB8FCB5607C1DE3C4C3951936889244C5F6FF3A259E663DAD6981DC70B5"
+    },
+    {
+        "path":  "decorations/large_tree.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  207,
+        "height":  269,
+        "alpha":  true,
+        "sha256":  "D67A9FFDCB6BF48FCB84A95F48910916B7F2EC619E63F2E3E09DB03309A8DC08"
+    },
+    {
+        "path":  "decorations/wooden_gate.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  211,
+        "height":  183,
+        "alpha":  true,
+        "sha256":  "06F8C82648BA25AD25BFCFD8867792737161D28645D773134704B6F61A8F7838"
+    },
+    {
+        "path":  "decorations/evergreen_rock_cluster.png",
+        "accepted":  false,
+        "reason":  "Altta komÅŸu lambanÄ±n baÅŸÄ± ve yanda kÄ±rpÄ±ntÄ±.",
+        "width":  222,
+        "height":  215,
+        "alpha":  true,
+        "sha256":  "9D42BA2155804F94F11F22E0855E5813CE566601B63788F21F328CF28E445AEA"
+    },
+    {
+        "path":  "decorations/fence_corner.png",
+        "accepted":  false,
+        "reason":  "SaÄŸ kenarda komÅŸu nesne kÄ±rpÄ±ntÄ±sÄ±.",
+        "width":  353,
+        "height":  199,
+        "alpha":  true,
+        "sha256":  "27D8114A988167A92114DA1831274AE3E4D3951222CAD267C4E031E09C95146B"
+    },
+    {
+        "path":  "decorations/small_evergreen_tree.png",
+        "accepted":  false,
+        "reason":  "Ãœst ve sol kenarda komÅŸu zemin parÃ§alarÄ±.",
+        "width":  204,
+        "height":  255,
+        "alpha":  true,
+        "sha256":  "D70F94CFBB3C9EFFEBE7C0410F0F776FDDE6ED6AAE8DFF96F777F704FB92EF7C"
+    },
+    {
+        "path":  "decorations/wooden_bench.png",
+        "accepted":  false,
+        "reason":  "SaÄŸdaki komÅŸu zemin/gÃ¶lge dikdÃ¶rtgen biÃ§iminde kesilmiÅŸ.",
+        "width":  289,
+        "height":  207,
+        "alpha":  true,
+        "sha256":  "6E73B3DE33756313A56F03F5DBB1FB6ADFD2D1781B2D0B93EE455D68487FADD5"
+    },
+    {
+        "path":  "decorations/rustic_lamp.png",
+        "accepted":  false,
+        "reason":  "Sol ve saÄŸda komÅŸu nesnelerin zemin parÃ§alarÄ±.",
+        "width":  180,
+        "height":  241,
+        "alpha":  true,
+        "sha256":  "749CBC3CE5CFF00AC78A8D1B5A1131DFDFD095D4CFB4B3AA23DFA1E9A8017D80"
+    },
+    {
+        "path":  "decorations/rock_cluster.png",
+        "accepted":  false,
+        "reason":  "SaÄŸda komÅŸu odun/zemin parÃ§asÄ±.",
+        "width":  360,
+        "height":  260,
+        "alpha":  true,
+        "sha256":  "5C03C5E78381F7B103C1C8A045CA7C6C0BE9106AB627D30FE609BDE0A0D2847E"
+    },
+    {
+        "path":  "decorations/stacked_firewood.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  258,
+        "height":  171,
+        "alpha":  true,
+        "sha256":  "BB24CE830B04D46CBD9F3F036170F0E92C627011A4F3B0FEC26793A2B695BD8C"
+    },
+    {
+        "path":  "fields/01_FIELD_EMPTY.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  1104,
+        "height":  832,
+        "alpha":  true,
+        "sha256":  "381D6C3F08B6C96DC7EA8FEC787516D22AEE000BC8DDF016BAD62237127A469D"
+    },
+    {
+        "path":  "fields/02_FIELD_PLANTED.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  1104,
+        "height":  832,
+        "alpha":  true,
+        "sha256":  "244557A76D23C4C25EC34C10B144A511D99E386726337B5DD4F6CFAF2F1FB4FF"
+    },
+    {
+        "path":  "fields/03_FIELD_GROWING.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  1104,
+        "height":  832,
+        "alpha":  true,
+        "sha256":  "3FA4D7BC518895264B4A05E852A580AD5352E782FD41BB368C5F0869B3EDBA00"
+    },
+    {
+        "path":  "fields/04_FIELD_HARVEST.png",
+        "accepted":  true,
+        "reason":  "GÃ¶rsel bÃ¼tÃ¼nlÃ¼k kontrolÃ¼nden geÃ§ti.",
+        "width":  1104,
+        "height":  832,
+        "alpha":  true,
+        "sha256":  "E8D80CD4416898832213704FFF26204A3F32798287610DE0EFF7121AF7E4AF43"
+    }
+]
