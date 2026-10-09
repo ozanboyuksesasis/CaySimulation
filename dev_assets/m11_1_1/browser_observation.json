@@ -1,0 +1,29 @@
+{
+  "checks": [
+    "Doğal: Turhan: Bu sevdaluk yedi beni!",
+    "Doğal: Havva: Bugün çay topliyamam çişelidur çişeli!",
+    "Doğal: Turhan: Rivrivriv!",
+    "Turhan: bağlam, duraklatma ve üç ekran boyutu",
+    "Havva: bağlam, duraklatma ve üç ekran boyutu",
+    "Yakında: bağlam, duraklatma ve üç ekran boyutu",
+    "Yürüyüş: bağlam, duraklatma ve üç ekran boyutu",
+    "Hasat: bağlam, duraklatma ve üç ekran boyutu",
+    "Uzak zoom ve kapatma baloncuğu kaldırıyor",
+    "Konuşma görsel doğrulaması tamamlandı"
+  ],
+  "natural": [
+    {
+      "seconds": 10.116,
+      "text": "Turhan: Bu sevdaluk yedi beni!"
+    },
+    {
+      "seconds": 21.2,
+      "text": "Havva: Bugün çay topliyamam çişelidur çişeli!"
+    },
+    {
+      "seconds": 51.877,
+      "text": "Turhan: Rivrivriv!"
+    }
+  ],
+  "exceptions": []
+}

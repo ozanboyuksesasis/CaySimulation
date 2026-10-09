@@ -1,4 +1,5 @@
 import 'package:cay_simulasyonu/game/cay_game.dart';
+import 'package:cay_simulasyonu/game/components/worker_speech_layer.dart';
 import 'package:cay_simulasyonu/features/ui/game_screen.dart';
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
@@ -34,6 +35,11 @@ void main() {
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 20));
     expect(game.isWorldReady, isTrue);
+    // Screen-sized speech must render above the camera's world, not behind it.
+    expect(
+      game.camera.viewport.children.whereType<WorkerSpeechLayer>().length,
+      1,
+    );
     expect(game.entities.length, 11);
     expect(game.assetCatalog.warnings, isEmpty);
     expect(game.entities.every((e) => e.sprite != null), isTrue);

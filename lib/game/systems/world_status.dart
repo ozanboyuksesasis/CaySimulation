@@ -21,8 +21,12 @@ class WorldStatus {
     bool selected = false,
     bool automated = false,
     bool harvestActive = false,
+    double? harvestProgress,
     bool transportActive = false,
   }) {
+    if (harvestActive) {
+      return WorldStatus('Hasat', progress: harvestProgress, symbol: '');
+    }
     if (field.harvestedStockKg > 0) {
       return WorldStatus(
         '${field.harvestedStockKg} kg${automated && !transportActive ? ' · Nakliye Bekliyor' : ''}',

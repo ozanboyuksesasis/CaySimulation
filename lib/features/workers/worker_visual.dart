@@ -4,7 +4,7 @@ import '../../game/world/isometric_grid.dart';
 
 enum WorkerVisualDirection { se, sw, ne, nw }
 
-enum WorkerVisualState { idle, walk }
+enum WorkerVisualState { idle, walk, harvest }
 
 class WorkerFrameDefinition {
   const WorkerFrameDefinition(this.asset, this.bodyTop, this.feetX, this.feetY);
@@ -30,13 +30,13 @@ class WorkerDirectionalVisual {
   WorkerVisualDirection direction = WorkerVisualDirection.se;
   WorkerVisualState state = WorkerVisualState.idle;
   double _elapsed = 0;
-  int get frameIndex => state == WorkerVisualState.idle
+  int get frameIndex => state != WorkerVisualState.walk
       ? 1
       : (_elapsed * 1000000 / WorkerVisualConfig.frameDuration.inMicroseconds)
                 .floor() %
             walkCycle.length;
   String get frameName =>
-      state == WorkerVisualState.idle ? 'IDLE' : walkCycle[frameIndex];
+      state != WorkerVisualState.walk ? 'IDLE' : walkCycle[frameIndex];
   WorkerFrameDefinition get frame =>
       frames['${direction.name.toUpperCase()}_$frameName']!;
 

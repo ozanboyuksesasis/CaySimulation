@@ -86,6 +86,9 @@ class GameHud extends StatelessWidget {
                 tooltip: 'Geliştirici araçları',
                 icon: const Icon(Icons.more_horiz),
                 onSelected: (value) {
+                  if (value == 'dialogue') {
+                    game.dialogue.enabled = !game.dialogue.enabled;
+                  }
                   if (value == 'automation') {
                     game.automation.enabled = !game.automation.enabled;
                   }
@@ -96,6 +99,12 @@ class GameHud extends StatelessWidget {
                   if (value == 'new') onMapMode?.call(GameMapMode.newGame);
                 },
                 itemBuilder: (_) => [
+                  PopupMenuItem(
+                    value: 'dialogue',
+                    child: Text(
+                      'Karakter Konuşmaları: ${game.dialogue.enabled ? 'Açık' : 'Kapalı'}',
+                    ),
+                  ),
                   PopupMenuItem(
                     value: 'automation',
                     enabled: game.tutorialRules?.active != true,

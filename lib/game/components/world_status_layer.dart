@@ -21,22 +21,31 @@ class WorldStatusLayer extends Component {
       if (entity.previewHidden) continue;
       final WorldStatus? status;
       if (entity is TeaFieldComponent) {
-        status = WorldStatus.field(
-          entity.field,
-          automated: game.automation.enabled,
-          harvestActive:
-              game.jobs.jobForField(entity.field.id)?.status ==
-              JobStatus.inProgress,
-          transportActive:
-              game.transport.jobForField(entity.field.id)?.isActive == true &&
-              game.transport.jobForField(entity.field.id)?.status !=
-                  JobStatus.queued,
-          selected:
-              entity.selected ||
-              game.tutorial?.targetEntityId == entity.definition.id,
-        );
+        final job = game.jobs.jobForField(entity.field.id);
+        status = entity.completionRemaining > 0
+            ? WorldStatus('+${entity.completedKg} kg Yaş Çay', sack: true)
+            : WorldStatus.field(
+                entity.field,
+                automated: game.automation.enabled,
+                harvestProgress: job?.status == JobStatus.inProgress
+                    ? game.jobs.progress(job!)
+                    : null,
+                harvestActive:
+                    game.jobs.jobForField(entity.field.id)?.status ==
+                    JobStatus.inProgress,
+                transportActive:
+                    game.transport.jobForField(entity.field.id)?.isActive ==
+                        true &&
+                    game.transport.jobForField(entity.field.id)?.status !=
+                        JobStatus.queued,
+                selected:
+                    entity.selected ||
+                    game.tutorial?.targetEntityId == entity.definition.id,
+              );
       } else if (entity is WorkerComponent) {
-        status = WorldStatus.worker(entity.worker, selected: entity.selected);
+        status = entity.harvest.active && !entity.selected
+            ? null
+            : WorldStatus.worker(entity.worker, selected: entity.selected);
       } else if (entity is VehicleComponent) {
         status = WorldStatus.vehicle(entity.vehicle, selected: entity.selected);
       } else if (entity.definition.id == game.retail.packaging?.id) {

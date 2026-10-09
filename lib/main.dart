@@ -4,6 +4,8 @@ import 'package:flutter/services.dart';
 import 'features/ui/game_screen.dart';
 import 'game/cay_game.dart' show GameMapMode;
 import 'game/turhan_test_scene.dart';
+import 'game/harvest_test_scene.dart';
+import 'game/dialogue_test_scene.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -42,11 +44,14 @@ class CayApp extends StatelessWidget {
         style: IconButton.styleFrom(minimumSize: const Size(48, 48)),
       ),
     ),
-    home:
-        const [
-          'turhan',
-          'havva',
-        ].contains(Uri.base.queryParameters['visualTest'])
+    home: Uri.base.queryParameters['visualTest'] == 'dialogue'
+        ? const DialogueTestScreen()
+        : Uri.base.queryParameters['visualTest'] == 'harvest'
+        ? const HarvestTestScreen()
+        : const [
+            'turhan',
+            'havva',
+          ].contains(Uri.base.queryParameters['visualTest'])
         ? TurhanTestScreen(workerId: Uri.base.queryParameters['visualTest']!)
         : GameScreen(
             mapMode: Uri.base.queryParameters['map'] == 'dev'

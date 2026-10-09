@@ -9,6 +9,8 @@ import '../../game/world/isometric_grid.dart';
 import 'worker.dart';
 import 'turhan_visual.dart';
 import 'havva_visual.dart';
+import 'harvest_job.dart';
+import 'harvest_visual.dart';
 
 class WorkerComponent extends WorldEntity {
   WorkerComponent({
@@ -18,10 +20,17 @@ class WorkerComponent extends WorldEntity {
     required this.worker,
     this.catalog,
     this.directionalSpritesEnabled = true,
+    this.currentJob,
+    this.zoom,
   });
   final Worker worker;
   final AssetCatalog? catalog;
   bool directionalSpritesEnabled;
+  bool harvestEffectsEnabled = true;
+  final HarvestJob? Function()? currentJob;
+  final double Function()? zoom;
+  late final harvest = HarvestVisual(worker, () => currentJob?.call());
+  final _harvestPainter = HarvestEffectPainter();
   late final WorkerDirectionalVisual visual = worker.id == 'havva'
       ? WorkerDirectionalVisual(
           worker.gridPosition,
@@ -48,6 +57,7 @@ class WorkerComponent extends WorldEntity {
     if (worker.state == WorkerState.working && target != null) {
       visual.faceTarget(worker.gridPosition, target, grid);
     }
+    if (harvest.active) visual.state = WorkerVisualState.harvest;
     super.update(dt);
   }
 
@@ -57,6 +67,11 @@ class WorkerComponent extends WorldEntity {
       super.renderSprite(canvas);
       return;
     }
+    final effects = harvestEffectsEnabled && harvest.active;
+    final rear =
+        visual.direction == WorkerVisualDirection.ne ||
+        visual.direction == WorkerVisualDirection.nw;
+    if (effects && rear) _renderHarvest(canvas);
     final frame = visual.frame;
     final artwork = catalog!.sprite(frame.asset);
     if (artwork == null) {
@@ -66,7 +81,16 @@ class WorkerComponent extends WorldEntity {
     final scale = frame.scaleFor(size.y);
     // Stable render/hit box; clipping empty margins does not edit the PNG.
     canvas.save();
-    canvas.clipRect(Rect.fromLTWH(0, 0, size.x, size.y));
+    canvas.clipRect(Rect.fromLTWH(-3, -3, size.x + 6, size.y + 6));
+    if (effects) {
+      // Less than one degree of lean, pivoted at the unchanged feet anchor.
+      final right =
+          visual.direction == WorkerVisualDirection.se ||
+          visual.direction == WorkerVisualDirection.ne;
+      canvas.translate(size.x / 2, size.y);
+      canvas.rotate((right ? 1 : -1) * .014 * harvest.pulse);
+      canvas.translate(-size.x / 2, -size.y);
+    }
     artwork.render(
       canvas,
       position: Vector2(
@@ -76,7 +100,16 @@ class WorkerComponent extends WorldEntity {
       size: artwork.srcSize * scale,
     );
     canvas.restore();
+    if (effects && !rear) _renderHarvest(canvas);
   }
+
+  void _renderHarvest(Canvas canvas) => _harvestPainter.render(
+    canvas,
+    harvest,
+    visual.direction,
+    zoom?.call() ?? 1,
+    worker.id,
+  );
 
   @override
   Offset get groundPosition => grid.toWorld(worker.gridPosition);

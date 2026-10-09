@@ -7,14 +7,18 @@ import 'worker_config.dart';
 
 /// Short deterministic walks on free pedestrian tiles. Jobs always preempt them.
 class WorkerIdleSystem {
-  WorkerIdleSystem(this.pathfinder);
+  WorkerIdleSystem(this.pathfinder, {math.Random? random})
+    : random = random ?? math.Random(8411);
+  final math.Random random;
   final GridPathfinder pathfinder;
   final Map<String, Duration> _wait = {};
   final Map<String, GridTile> _targets = {};
   final Map<String, GridTile> _anchors = {};
-  final Map<String, int> _turns = {};
+  final Map<String, Duration> _pause = {};
+  final Map<String, GridTile> _previousTile = {};
   void cancel(Worker w) {
     _wait.remove(w.id);
+    _pause.remove(w.id);
     _targets.remove(w.id);
     _anchors.remove(w.id);
     w.isStrolling = false;
@@ -44,11 +48,21 @@ class WorkerIdleSystem {
         final wait = (_wait[w.id] ?? Duration.zero) + dt;
         _wait[w.id] = wait;
         // Vacate a newly reserved workplace without waiting for the idle pause.
-        if (wait < WorkerConfig.idlePause &&
-            !workTiles.contains(tileAt(w.gridPosition))) {
+        final pause = _pause.putIfAbsent(
+          w.id,
+          () => Duration(
+            milliseconds:
+                WorkerConfig.idlePauseMinMs +
+                random.nextInt(
+                  WorkerConfig.idlePauseMaxMs - WorkerConfig.idlePauseMinMs + 1,
+                ),
+          ),
+        );
+        if (wait < pause && !workTiles.contains(tileAt(w.gridPosition))) {
           continue;
         }
         _wait[w.id] = Duration.zero;
+        _pause.remove(w.id);
         final current = tileAt(w.gridPosition);
         final anchor = _anchors.putIfAbsent(w.id, () => current);
         final candidates = [
@@ -57,15 +71,20 @@ class WorkerIdleSystem {
           (x: current.x - 1, y: current.y),
           (x: current.x, y: current.y - 1),
         ];
-        final turn = _turns[w.id] ?? 0;
+        candidates.shuffle(random);
+        // Prefer exploring over immediate backtracking when another tile is free.
+        final previous = _previousTile[w.id];
+        candidates.sort(
+          (a, b) => (a == previous ? 1 : 0).compareTo(b == previous ? 1 : 0),
+        );
         for (var i = 0; i < candidates.length; i++) {
-          final t = candidates[(turn + i) % candidates.length];
+          final t = candidates[i];
           if (pathfinder.walkable(t) &&
               !occupied.contains(t) &&
               (t.x - anchor.x).abs() + (t.y - anchor.y).abs() <=
                   WorkerConfig.idleRadius) {
             _targets[w.id] = t;
-            _turns[w.id] = turn + i + 1;
+            _previousTile[w.id] = current;
             w.isStrolling = true;
             break;
           }

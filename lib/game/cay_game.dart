@@ -39,6 +39,9 @@ import '../features/workers/workforce_state.dart';
 import '../features/workers/equipment.dart';
 import '../features/workers/turhan_visual.dart';
 import '../features/workers/havva_visual.dart';
+import '../features/workers/harvest_visual.dart';
+import '../features/workers/worker_dialogue.dart';
+import 'components/worker_speech_layer.dart';
 import 'systems/world_simulation.dart';
 import 'systems/tutorial_system.dart';
 import 'systems/grid_pathfinder.dart';
@@ -208,6 +211,24 @@ class CayGame extends FlameGame {
     }
   }
   final GameMapMode mapMode;
+  late final dialogue = WorkerDialogueSystem(
+    workers: () => workforce.workers,
+    jobForWorker: jobs.jobForWorker,
+  );
+  bool get dialogueSuppressed {
+    if (panels.panel != GamePanel.none || builder.isPlacing) return true;
+    final step = tutorial?.step;
+    return tutorial?.guided == true &&
+        step != TutorialStep.completed &&
+        !const {
+          TutorialStep.waitGrowth,
+          TutorialStep.orderHarvest,
+          TutorialStep.waitHarvest,
+          TutorialStep.orderTransport,
+          TutorialStep.waitDelivery,
+        }.contains(step);
+  }
+
   TutorialStep? _lastTutorialStep;
   void _tutorialStepChanged() {
     final next = tutorial!.step;
@@ -501,6 +522,16 @@ class CayGame extends FlameGame {
         definition: definition,
         grid: grid,
         field: fields.single,
+        currentJob: () => jobs.jobForField(definition.id),
+        workerGround: () {
+          final w = jobs.assignedWorker(jobs.jobForField(definition.id));
+          return w == null ? null : grid.toWorld(w.gridPosition);
+        },
+        actionCycle: () =>
+            jobs.assignedWorker(jobs.jobForField(definition.id))?.equipment ==
+                EquipmentType.teaHarvesterMotor
+            ? HarvestVisualConfig.motorCycleSeconds
+            : HarvestVisualConfig.shearsCycleSeconds,
         catalog: assetCatalog,
       );
     } else if (workforce.byId(definition.id) != null) {
@@ -508,6 +539,8 @@ class CayGame extends FlameGame {
         definition: definition,
         grid: grid,
         worker: workforce.byId(definition.id)!,
+        currentJob: () => jobs.jobForWorker(workforce.byId(definition.id)!),
+        zoom: () => navigation.zoom,
         catalog: assetCatalog,
         sprite: assetCatalog.sprite(definition.assetPath),
       );
@@ -558,6 +591,7 @@ class CayGame extends FlameGame {
     await world.add(GridDebugComponent(this));
     await world.add(PlacementPreview(this));
     await world.add(WorldStatusLayer(this));
+    await camera.viewport.add(WorkerSpeechLayer(this));
     navigation.resize(Size(size.x, size.y));
     navigation.reset();
     for (final issue in transport.validateRoutes()) {
@@ -580,6 +614,13 @@ class CayGame extends FlameGame {
       );
     }
     if (isWorldReady) _syncCustomers();
+    if (isWorldReady) {
+      dialogue.update(
+        plantation.simulationTime,
+        suppressed: dialogueSuppressed,
+        zoom: navigation.zoom,
+      );
+    }
     _sorter.sort(entities);
     super.update(dt);
     _elapsed += dt;
